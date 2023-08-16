@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.formulario{
+    margin: 30px;
+    padding: 50px;
+    width: 500px;
+    border: 1px solid rgb(207, 206, 206);
+}

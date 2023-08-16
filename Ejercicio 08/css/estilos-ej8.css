@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #183a2d;
+}
+
+/* link sin visitar */
+    a:link {
+    color: rgb(255, 0, 0);    
+    }
+    
+    /* link visitado*/
+    a:visited {
+    color: #CCC;
+    }
+    
+    /* mouse sobre el link*/
+    a:hover {
+    color: #ffffff;
+    background-color: #CC0000;
+    
+    }

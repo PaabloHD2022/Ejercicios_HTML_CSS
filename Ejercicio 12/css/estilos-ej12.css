@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.table{
+    width: 500px;
+    margin: 20px;    
+}
+
+.btn-primary{
+    border-radius: .4rem !important ;
+    height: 35px;
+    font-size: 12px;
+}

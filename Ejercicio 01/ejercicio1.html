@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Ejercicio 1</title>
+</head>
+    <body>
+        <h1>Pablo Demartini</h1>
+        <img src="./img/Nosotros_1.jpeg" alt="Nosotros" width="400px">
+        <p>Este es mi <strong>primer</strong> ejercicio de <strong>HTML</strong> en Egg Corporation <br> Para Argentina Programa 4.0</p>
+        
+        <h2>Aptitudes personales</h2>        
+        <ul>
+            <li>Asertividad</li>
+            <li>Trabajo en equipo</li>
+            <li>Escucha activa</li>
+            <li>Resiliencia</li>
+            <li>Hincha de river</li>
+        </ul>
+        <h2>Tecnologias</h2>        
+        <ol>
+            <li>Java</li>
+            <li>MySQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <a href="http://www.linkedin.com/in/pablo-hernan-demartini-2b3135236">Link</a>
+        <h2>Tablas en HTML</h2>
+        <table>
+            <tr>
+                <th>Titulo Celda 1</th>
+                <th> Titulo Celda 2</th>
+            </tr>
+            <tr>
+                <td>Celda 1, línea 1</td>
+                <td> Celda 2, línea 1</td>
+            </tr>
+            <tr>
+                <td> Celda 1, línea 2</td>
+                <td> Celda 2, línea 2</td>
+            </tr>
+        </table>
+            <form action="ruta del método que va a manejar la información" method="POST" enctype="multipart/form-data">
+                <!-- contenido del formulario -->
+                <br>
+                <p class=""><span>Ingresar datos a la base de datos:</span></p>
+                <input type="text">
+                <br><br>
+                <input type="date">
+                <br><br>
+                <label for="">Prueba</label><br>
+                <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+                <label for="email">email</label>
+                <input type="email"><br><br>
+                <input type="password" placeholder="password"><br><br>
+                <input type="text" name="nombre"><br><br>
+                <input type="number">
+                <br><br>
+                <label>Nombre del Usuario</label>
+                <input type="text" name="nombre">
+                <br><br>
+                <label for="nombre">Nombre del Usuario</label>
+                <input type="text" id="nombre" name="nombre">
+            </form>
+            <br>
+            <label for="estacion">Estaciones</label>
+            <select name="estacion">
+                <option>Primavera</option>
+                <option>Verano</option>
+                <option>Otoño</option>
+                <option>Invierno</option>
+            </select><br><br>
+            <input type="radio" name="estacion" value="1">Primavera
+            <br>
+            <input type="radio" name="estacion" value="2">Verano
+            <br>
+            <input type="radio" name="estacion" value="3">Otoño
+            <br>
+            <input type="radio" name="estacion" value="4">Invierno
+            <br><br>
+            <input type="radio" id="primavera" name="estacion" value="1">
+            <label for="primavera">Primavera</label>
+            <br>
+            <input type="radio" id="verano" name="estacion" value="2">
+            <label for="verano">Verano</label>
+            <br>
+            <input type="radio" id="otonio" name="estacion" value="3">
+            <label for="otonio">Otoño</label>
+            <br>
+            <input type="radio" id="invierno" name="estacion" value="4">
+            <label for="invierno">Invierno</label>
+            <br><br>
+            <input type="checkbox" name="estacion" value="primavera">Primavera
+            <input type="checkbox" name="estacion" value="verano">Verano
+            <input type="checkbox" name="estacion" value="otoño">Otoño
+            <input type="checkbox" name="estacion" value="invierno">Invierno
+            <br><br>
+            <button type="submit">Enviar</button>
+            <br><br>
+            <button type="reset">Borrar</button>
+            <br><br>
+            <button type="button">Borrar</button>
+            <br><br>
+            <label for="Hidden">Campo escondido</label>
+            <input type="hidden" name="instituto" value="Egg Educación">
+            <br><br>
+            <form action="ruta del método que va a manejar la información" method="POST" enctype="multipart/form-data"></form>
+            <label>Nombre del usuario</label> <br>
+            <input type="text" name="nombre"> <br>
+            <label>Edad del usuario</label> <br>
+            <input type="number" name="edad "> <br>
+            <label>Fecha de nacimiento del usuario</label> <br>
+            <input type="date" name="fechanac"> <br>
+            <label>Sexo del usuario</label> <br>
+            <input type="radio" name="sexo" value="Hombre"> Hombre <br>
+            <input type="radio" name="sexo" value="Mujer"> Mujer <br>
+            <label>País nacimiento del usuario</label> <br>
+            <select name="pais">
+                <option>Argentina</option>
+                <option>Brasil</option>
+                <option>Chile</option>
+                <option>Uruguay</option>
+            </select>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            <br><br>
+            <h3>Formulario</h3>
+            <form action="ruta del método que va a manejar la información" method="POST" enctype="multipart/form-data"></form>
+            <label>Nombre del usuario</label> <br>
+            <input type="text" name="nombre"> <br>
+            <label>Edad del usuario</label> <br>
+            <input type="number" name="edad "> <br>
+            <label>Fecha de nacimiento del usuario</label> <br>
+            <input type="date" name="fechanac"> <br>
+            <label>Sexo del usuario</label> <br>
+            <input type="radio" name="sexo" value="Hombre"> Hombre <br>
+            <input type="radio" name="sexo" value="Mujer"> Mujer <br>
+            <label>País nacimiento del usuario</label> <br>
+            <select name="pais">
+                <option>Argentina</option>
+                <option>Brasil</option>
+                <option>Chile</option>
+                <option>Uruguay</option>
+            </select>
+            <br>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/Nosotros_1.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/Nosotros_1.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/Nosotros_1.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br><br>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <br><br>
+              <div class="card">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <br><br>
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>              
+              <div class="card" aria-hidden="true">
+                <img src="./img/Nosotros_1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title placeholder-glow">
+                    <span class="placeholder col-6"></span>
+                  </h5>
+                  <p class="card-text placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-6"></span>
+                    <span class="placeholder col-8"></span>
+                  </p>
+                  <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+                </div>
+              </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>    
+</html>
